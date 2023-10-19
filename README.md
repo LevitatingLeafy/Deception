@@ -7,22 +7,27 @@ Current
 2. Encrypt it with AES 256 using random key & iv and Base 64 encode
 3. This is then placed into a generated source file using a given injection method (in help below) and compiled
 
-Later versions will incorporate
-- Move Project to Visual Studio
-- More techniques
-    - Process Injection
-        - Process Hollow
-        - Thread Hijack
-        - ...
-    - Misc
-        - PPID Spoofing
-        - BlockDlls
-        - Module Stomping
-        - ...
-- Do above techniques with
-    - both shellcode and dlls
-    - kernel32 and ntdll.dll (direct syscalls)
-    - In other languages (C++, Nim, ...)
+<details>
+<summary>Later versions will incorporate</summary>
+Move Project to Visual Studio
+
+More techniques
+- Process Injection
+- Process Hollow
+- Thread Hijack
+- ...
+
+Misc
+- PPID Spoofing
+- BlockDlls
+- Module Stomping
+- ...
+
+Do above techniques with
+- both shellcode and dlls
+- kernel32 and ntdll.dll (direct syscalls)
+- In other languages (C++, Nim, ...)
+</details>
 
 ### Usage
 ```
