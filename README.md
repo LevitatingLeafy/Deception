@@ -1,6 +1,9 @@
 # Deception
 Simple AV Evasion Generator for me to learn evasion techniques
 
+> [!WARNING]
+> This project is **depricated**. Please see the new repo [HoodWink](https://github.com/LevitatingLeafy/HoodWink)
+
 ### Overview
 Current
 1. Deception will read in a file containing shellcode
